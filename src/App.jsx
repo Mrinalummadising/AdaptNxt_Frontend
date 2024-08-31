@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import HomePage from "./pages/HomePage";
 import Inventory from "./pages/Inventory";
-import Orders from "./pages/orders";
+import Orders from "./pages/Orders";
 import Returns from "./pages/Returns";
 import Customers from "./pages/Customers";
 import Shipping from "./pages/Shipping";
@@ -27,7 +27,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/Inventory" element={<Inventory />} />
-              <Route path="/Orders" element={<Orders />} />
+              <Route path="/orders" element={<Orders />} />
               <Route path="/returns" element={<Returns />} />
               <Route path="/customers" element={<Customers />} />
               <Route path="/shippings" element={<Shipping />} />
