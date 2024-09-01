@@ -8,6 +8,7 @@ import Orders from "./pages/Orders";
 import Returns from "./pages/Returns";
 import Customers from "./pages/Customers";
 import Shipping from "./pages/Shipping";
+import Channel from "./pages/Channel";
 import "./index.css";
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
               <Route path="/returns" element={<Returns />} />
               <Route path="/customers" element={<Customers />} />
               <Route path="/shippings" element={<Shipping />} />
+              <Route path="/channel" element={<Channel />} />
             </Routes>
           </main>
         </div>
